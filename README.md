@@ -28,13 +28,14 @@ This PowerShell script takes a large file and breaks it down into smaller pieces
 
 1. Download the script or clone the repository.
 2. Open **PowerShell** and navigate to where the script is located.
-3. Use this syntax to run the script:
+
+Update $sourceFile = "C:\path\to\your\largefile.ext" # Full path to the file you want to split
+Update $outputFolder = "C:\" # Output folder for pieces
+
+4. Use this syntax to run the script:
 
    ```powershell
-   .\FileSplitter.ps1 -FilePath "C:\path\to\your\file.ext" -OutputDirectory "C:\path\to\output\directory"
-
-    -FilePath: Path to the file you want to split.
-    -OutputDirectory: Where you want the split files to go. If you don't say where, it defaults to C:\.
+   .\IntoLilBittyPieces.ps1
 
 ## Output
 

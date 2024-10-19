@@ -1,3 +1,4 @@
+<img src="https://it.buf0rd.com/blog/images/biggiesmallfiles.png">
 # Biggle Small Files :: A File Splitter PowerShell Script repo
 
 ## Overview

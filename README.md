@@ -30,6 +30,7 @@ This PowerShell script takes a large file and breaks it down into smaller pieces
 2. Open **PowerShell** and navigate to where the script is located.
 
 Update $sourceFile = "C:\path\to\your\largefile.ext" # Full path to the file you want to split
+
 Update $outputFolder = "C:\" # Output folder for pieces
 
 4. Use this syntax to run the script:

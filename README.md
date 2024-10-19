@@ -1,4 +1,4 @@
-# Biggle Small Files :: A File Splitter PowerShell Script
+# Biggle Small Files :: A File Splitter PowerShell Script repo
 
 ## Overview
 

@@ -10,7 +10,6 @@ This PowerShell script takes a large file and breaks it down into smaller pieces
 - Splits files into parts that are under 4GB each.
 - Automatically numbers each split file so they’re easy to find and follow.
 - Works efficiently on large datasets.
-- Saves all split files to a folder you specify (defaults to `C:\` if you don’t specify anything).
 
 ## Requirements
 
@@ -29,14 +28,11 @@ This PowerShell script takes a large file and breaks it down into smaller pieces
 1. Download the script or clone the repository.
 2. Open **PowerShell** and navigate to where the script is located.
 
-Update $sourceFile = "C:\path\to\your\largefile.ext" # Full path to the file you want to split
-
-Update $outputFolder = "C:\" # Output folder for pieces
 
 4. Use this syntax to run the script:
 
    ```powershell
-   .\IntoLilBittyPieces.ps1
+   .\BiggieSmallfiles.ps1.ps1
 
 ## Output
 
